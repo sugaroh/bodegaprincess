@@ -1,0 +1,12 @@
+body {
+	background-color: skyblue; 
+	margin: 0;
+	overflow-y: hidden;
+	text-align: center;
+}
+
+
+img {
+	max-height: 100vh;
+	max-width: 100%;
+}
