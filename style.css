@@ -5,8 +5,22 @@ body {
 	text-align: center;
 }
 
-
 img {
-	max-height: 100vh;
 	max-width: 100%;
+}
+
+
+img.maps {max-height: 100vh;
+	max-width: 100%;
+}
+
+body.check-out {
+	background: url("pink-sparkles.gif") center center no-repeat; /* Replace 'path/to/your/gif.gif' with the actual path to your GIF */
+    background-size: cover; /* This will make sure the background covers the entire viewport */
+}
+
+
+.img-container {
+	max-width: 500px;
+	text-align: center;
 }
