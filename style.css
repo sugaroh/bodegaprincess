@@ -1,5 +1,5 @@
 body {
-	background-color: skyblue; 
+	background-color: forestgreen; 
 	margin: 0;
 	overflow-y: hidden;
 	text-align: center;
@@ -24,3 +24,14 @@ body.check-out {
 	max-width: 500px;
 	text-align: center;
 } 
+
+
+body.index img {
+	min-height:100vh ;
+	min-width:100vw;
+
+}
+
+body.index {
+	overflow:hidden;
+}
