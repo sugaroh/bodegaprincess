@@ -2,7 +2,7 @@ body {
 	background-color: forestgreen; 
 	margin: 0;
 	overflow-y: hidden;
-	text-align: center;
+	text-align: left;
 }
 
 img {
@@ -35,3 +35,41 @@ body.index img {
 body.index {
 	overflow:hidden;
 }
+
+body.index map[name="image-map"] area:hover {
+cursor:url(sesame-cursor.png) 24 24, auto;
+}
+
+
+body.browse img {
+	min-height:100vh ;
+	min-width:100vw;
+}
+
+body.browse map[name="image-map"] area:hover {
+cursor:url(sparkle-cursor.gif) 24 24, auto;
+}
+
+body.magazine-rack {
+	padding:2em;
+}
+
+
+#mobile-message {
+	position:absolute;
+	top:1em;
+	left:1em;
+	background:papayawhip;
+	padding:1em;
+	display:none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 550px) {
+	#mobile-message{
+		display:block;
+	}
+
+
+}
+
