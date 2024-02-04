@@ -47,7 +47,7 @@ body.browse img {
 }
 
 body.browse map[name="image-map"] area:hover {
-cursor:url(sparkle-cursor.gif) 24 24, auto;
+cursor:url(sesame-cursor.png) 24 24, auto;
 }
 
 body.magazine-rack {
